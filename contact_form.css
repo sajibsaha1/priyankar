@@ -40,3 +40,8 @@ textarea {
     outline: none;
     border: none;
 }
+
+.container {
+    background-color: rgb(255, 135, 135);
+    padding: 50px;
+}
