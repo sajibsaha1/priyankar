@@ -1,10 +1,8 @@
 // For Right click disable.
-// window.addEventListener(
-//   "contextmenu",
-//   function (e) {
-//     e.preventDefault();
-//   },
-//   false
-// );
-
-// SMTPJS adding
+window.addEventListener(
+  "contextmenu",
+  function (e) {
+    e.preventDefault();
+  },
+  false
+);
