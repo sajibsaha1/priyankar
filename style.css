@@ -388,3 +388,52 @@ body {
   }
 
 }
+
+/*  Contact form css codes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background: #6f89f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.form {
+  width: 500px;
+  padding: 6px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 6px;
+  outline: none;
+  border: none;
+  margin: 6px 0px;
+
+}
+
+#btn {
+
+  width: 175px;
+  height: 50px;
+  padding: 6px;
+  cursor: pointer;
+  background-color: aqua;
+  outline: none;
+  border: none;
+}
+
+.container {
+  background-color: rgb(255, 135, 135);
+  padding: 50px;
+}
