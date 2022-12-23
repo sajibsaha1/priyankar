@@ -26,3 +26,4 @@ git clone https://github.com/priyankarpal/priyankar.git
 ## Website Image
 
 ![Website Image](images/priyankarpal_portfolio.png)
+![Website Image](images/icons8-instagram.svg)
