@@ -21,7 +21,7 @@ git clone https://github.com/priyankarpal/priyankar.git
 
 ## Author
 
-- [@priyankarpal](https://www.github.com/priyankarpal)
+- [@priyankarpal](https://linktr.ee/priyankarpal)
 
 ## Website Image
 
