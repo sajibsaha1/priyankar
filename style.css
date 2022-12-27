@@ -5,7 +5,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤖</text></svg>") 16 0, auto;
 }
+
 
 
 .img-fluid {
@@ -13,7 +15,7 @@
   filter: grayscale(100%);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out; */
-  cursor: pointer;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤖</text></svg>") 16 0, auto;
   height: auto;
   max-width: 66%;
   border-radius: 18px;
@@ -26,18 +28,19 @@
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
-.img-fluid-banner{
-    -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-      -webkit-transition: .3s ease-in-out;
-      transition: .3s ease-in-out;
-      cursor: pointer;
-      height: auto;
-      max-width: 66%;
-      border-radius: 18px;
-      box-shadow: -2px 3px 25px -4px rgba(0, 0, 0, 0.75);
-      -webkit-box-shadow: -2px 3px 25px -4px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: -2px 3px 25px -4px rgba(0, 0, 0, 0.75);
+
+.img-fluid-banner {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  height: auto;
+  max-width: 66%;
+  border-radius: 18px;
+  box-shadow: -2px 3px 25px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 3px 25px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 3px 25px -4px rgba(0, 0, 0, 0.75);
 }
 
 :root {
@@ -77,6 +80,7 @@ body {
   font-family: var(--primary-font);
   font-weight: var(--normal-font-weight);
   background-color: var(--bg-white);
+
 }
 
 /* Custom CSS */
@@ -476,6 +480,7 @@ body {
 .timeline ul li:hover {
   background-color: #071f2a;
   color: white;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤖</text></svg>") 16 0, auto;
 }
 
 .timeline ul li:hover:before {
