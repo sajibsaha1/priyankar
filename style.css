@@ -388,3 +388,91 @@ body {
   }
 
 }
+
+/*  Timeline code */
+
+.timeline {
+
+  width: 800px;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  padding: 30px 20px;
+
+}
+
+.timeline ul {
+  list-style-type: none;
+  border-left: 2px solid #094a68;
+  padding: 10px 5px;
+}
+
+.timeline ul li {
+  padding: 20px 20px;
+  position: relative;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.timeline ul li span {
+  font-family: var(--secondary-font);
+  display: inline-block;
+  background-color: #72b235;
+  color: black;
+  border-radius: 15px;
+  padding: 2px 22px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.timeline ul li .content-timeline h3 {
+  font-family: var(--secondary-font);
+  color: #00a8f0;
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+.timeline ul li .content-timeline p {
+  font-family: var(--secondary-font);
+  padding: 5px 0px 15px 0px;
+  font-size: 20px;
+}
+
+.timeline ul li:before {
+  position: absolute;
+  content: '🚀';
+  width: 10px;
+  height: 10px;
+  left: -11px;
+  transition: .5s;
+}
+
+.timeline-h2 {
+  font-weight: bold;
+}
+
+.timeline ul li:hover {
+  background-color: #071f2a;
+  color: white;
+}
+
+.timeline ul li:hover:before {
+  content: '👀';
+  /* background-color: #0F0; */
+  /* box-shadow: 0px 0px 10px 2px #0F0; */
+}
+
+
+/*  For Responsive Design */
+
+@media (max-width:300px) {
+  .timeline {
+    width: 100%;
+    padding: 30px 5px 30px 10px;
+  }
+
+  .timeline ul li .content-timeline h3 {
+    color: #34ace0;
+    font-size: 15px;
+  }
+
+}
