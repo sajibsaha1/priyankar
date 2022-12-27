@@ -3,7 +3,7 @@ window.addEventListener(
   "contextmenu",
   function (e) {
     e.preventDefault();
-    alert("Right-click is not allowed on this page");
+    alert("Lol! 🤣 Right-click is not allowed on this page");
   },
 
   false
