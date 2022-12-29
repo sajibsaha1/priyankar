@@ -14,7 +14,7 @@
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🪠</text></svg>") 16 0, auto;
   height: auto;
   max-width: 66%;
-  border-radius: 18px;
+  border-radius: 5px;
   box-shadow: -2px 3px 25px -4px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -2px 3px 25px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -2px 3px 25px -4px rgba(0, 0, 0, 0.75);
@@ -76,7 +76,7 @@ body {
   font-weight: 700;
   color: var(--text-white) !important;
   padding: 12px 29px !important;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 2px solid var(--bg-black);
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   display: inline-block;
@@ -271,7 +271,7 @@ body {
 .brand_wrapper .showcase_card img {
   width: 100%;
 
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 45px 25px;
   background-color: var(--bg-white);
   box-shadow: 0 5px 40px rgb(0 0 0 / 8%);
