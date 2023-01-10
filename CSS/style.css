@@ -90,6 +90,12 @@ nav .logo {
 
 /*  About sections */
 
+.abt{
+  display: flex;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
 .about-wrapper {
   width: 70vw;
 
@@ -109,7 +115,6 @@ nav .logo {
 
 .about-wrapper h2 {
   font-size: 4rem;
-  padding-bottom: 0.5em;
 }
 
 .about-wrapper p {
@@ -119,13 +124,21 @@ nav .logo {
 }
 
 /*  Projects Section */
+
+.prj {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2em;
+
+}
+
 #projects-section {
   padding-top: 2em;
 }
 
 .prj-h2 {
   font-size: 3rem;
-  padding-bottom: 1em;
+  /* padding-bottom: 1em; */
 }
 
 .container {
@@ -265,6 +278,12 @@ img {
 }
 
 /* Contact me  */
+.cnt {
+  display: flex;
+  align-items: center;
+  gap: .1em;
+}
+
 .contact-h2 {
   font-size: 2.8rem;
   padding-block: 1em;
