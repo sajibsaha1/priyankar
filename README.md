@@ -35,6 +35,4 @@ git clone https://github.com/priyankarpal/priyankar.git
 ## Website Image
 
 ![Website Image](images/portfolio.png)
-
-<video src="/images/priyankar.webm" controls="controls" style="max-width: 730px;">
-</video>
+![Website Video](/images//priyankar.mp4)
