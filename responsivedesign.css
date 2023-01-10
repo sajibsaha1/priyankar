@@ -1,0 +1,27 @@
+@media (max-width: 62.5em) {
+  nav {
+    padding: 0 2.5em 0 3.2em;
+  }
+
+  #banner {
+    height: 50vh;
+    position: relative;
+    z-index: -1;
+    font-size: 0.3em;
+  }
+
+
+  footer .footer-txt {
+    padding-left: 2em;
+  }
+}
+
+@media (max-width:23em) {
+  #banner {
+    margin-left: 5em;
+  }
+
+  .prj-h2 {
+    padding-top: 2em;
+  }
+}
