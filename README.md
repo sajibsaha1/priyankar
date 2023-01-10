@@ -35,4 +35,6 @@ git clone https://github.com/priyankarpal/priyankar.git
 ## Website Image
 
 ![Website Image](images/portfolio.png)
-<video src="./images/priyankar.mp4"></video>
+
+https://user-images.githubusercontent.com/88102392/211541713-fd45fe4d-7344-40b0-93a6-39dcaf6f7d5f.mp4
+
