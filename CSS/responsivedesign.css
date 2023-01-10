@@ -14,6 +14,9 @@
   footer .footer-txt {
     padding-left: 2em;
   }
+    .cards {
+      gap: 2em;
+    }
 }
 
 @media (max-width:23em) {
@@ -22,6 +25,7 @@
   }
 
   .prj{
-    padding-block: 5em;
+    padding-top: 18em;
   }
+  
 }
