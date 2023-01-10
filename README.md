@@ -35,4 +35,4 @@ git clone https://github.com/priyankarpal/priyankar.git
 ## Website Image
 
 ![Website Image](images/portfolio.png)
-  <video src="./images/priyankar.mp4"></video>
+<video src="./images/priyankar.mp4"></video>
