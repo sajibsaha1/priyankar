@@ -1,5 +1,5 @@
-const toggleBtn = document.getElementById("toggle-btn");
+const checkbox = document.getElementById('checkbox');
 
-toggleBtn.addEventListener("click", function () {
-  document.body.classList.toggle("dark-mode");
-});
+checkbox.addEventListener('change', ()=>{
+  document.body.classList.toggle('dark');
+})
