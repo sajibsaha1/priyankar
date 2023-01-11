@@ -162,10 +162,6 @@ nav .logo {
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
-
-  /** Alternative Syntax **/
-  /* grid-column: 1 / span 2;  */
-  /* grid-row: 1 / span 2; */
 }
 
 .gallery__item--2 {
@@ -174,9 +170,6 @@ nav .logo {
   grid-row-start: 1;
   grid-row-end: 3;
 
-  /** Alternative Syntax **/
-  /* grid-column: 3 / span 2;  */
-  /* grid-row: 1 / span 2; */
 }
 
 .gallery__item--3 {
@@ -185,9 +178,7 @@ nav .logo {
   grid-row-start: 1;
   grid-row-end: 6;
 
-  /** Alternative Syntax **/
-  /* grid-column: 5 / span 4;
-  grid-row: 1 / span 5; */
+
 }
 
 .gallery__item--4 {
@@ -196,9 +187,6 @@ nav .logo {
   grid-row-start: 3;
   grid-row-end: 6;
 
-  /** Alternative Syntax **/
-  /* grid-column: 1 / span 4;  */
-  /* grid-row: 3 / span 3; */
 }
 
 .gallery__item--5 {
@@ -207,9 +195,6 @@ nav .logo {
   grid-row-start: 6;
   grid-row-end: 9;
 
-  /** Alternative Syntax **/
-  /* grid-column: 1 / span 4; */
-  /* grid-row: 6 / span 3; */
 }
 
 .gallery__item--6 {
@@ -218,9 +203,7 @@ nav .logo {
   grid-row-start: 6;
   grid-row-end: 9;
 
-  /** Alternative Syntax **/
-  /* grid-column: 5 / span 4; */
-  /* grid-row: 6 / span 3; */
+
 }
 
 figure:hover img {
