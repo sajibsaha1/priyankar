@@ -7,12 +7,14 @@
   font-family: "Inter", sans-serif;
   text-decoration: none;
   list-style: none;
+  transition: 0.2s;
 }
 
 /* Toggle switch */
 body.dark {
   background-color: #000;
   color: #fff;
+  transition: 0.5s;
 }
 
 body.dark .social-links {
