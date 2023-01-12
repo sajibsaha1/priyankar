@@ -64,6 +64,7 @@ body.dark .footer-link {
 
 /*  target the element after the label*/
 .checkbox:checked + .label .ball {
+  transition: 0.5s;
   transform: translateX(1.2em);
 }
 
