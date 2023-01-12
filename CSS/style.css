@@ -122,9 +122,11 @@ nav .logo {
   position: absolute;
   font-size: 15em;
   font-weight: bold;
+
 }
 
 .parallax-text::after {
+
   position: absolute;
   content: attr(text);
   z-index: 100;
