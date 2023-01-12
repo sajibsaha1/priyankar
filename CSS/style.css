@@ -55,6 +55,8 @@ body.dark .footer-link {
   top: 0.12em;
   left: 0.12em;
   border-radius: 50%;
+  -webkit-box-shadow: 5px 5px 15px -3px #000000;
+  box-shadow: 5px 5px 15px -3px #000000;
   transition: transform 0.2s linear;
 }
 
@@ -67,7 +69,7 @@ body.dark .footer-link {
 
 /* Nav Bar Starts*/
 
-.menu{
+.menu {
   display: none;
 }
 
