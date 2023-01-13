@@ -28,5 +28,5 @@ You can get extra CSS3 code
 
 ## Website Image
 
-https://user-images.githubusercontent.com/88102392/211541713-fd45fe4d-7344-40b0-93a6-39dcaf6f7d5f.mp4
+![Priyankar Pal](/images/priyankar.png)
 
