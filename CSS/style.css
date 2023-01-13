@@ -146,8 +146,14 @@ nav .logo {
   position: absolute;
   font-size: 15em;
   font-weight: bold;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
 
 }
+
+
 
 .parallax-text::after {
 
