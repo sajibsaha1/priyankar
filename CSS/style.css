@@ -10,6 +10,27 @@
   transition: 0.2s;
 }
 
+
+
+/* Custom Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+  width: .5em;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: .8em;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  border-radius: .8em;
+}
+
+
 /* Toggle switch */
 body.dark {
   background-color: #000;
