@@ -6,7 +6,7 @@
 @media screen and (max-width: 48em) {
   .nav-items li {
     font-size: 0.2rem;
-    margin-block: 2rem;
+    margin-block: 0.5rem;
   }
   #banner {
     flex-direction: column;
