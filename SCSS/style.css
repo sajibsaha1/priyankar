@@ -63,7 +63,7 @@ body {
   align-items: center;
   width: 80vw;
   margin-inline: auto;
-  margin-top: 7rem;
+  margin-top: 6rem;
   gap: 5rem;
 }
 #banner .banner-img {
@@ -102,7 +102,7 @@ body {
   flex-direction: column;
   width: 80vw;
   margin-inline: auto;
-  margin-top: 7rem;
+  margin-top: 6rem;
 }
 #projects-section .name {
   font-size: 3rem;
@@ -136,7 +136,7 @@ body {
   flex-direction: column;
   width: 80vw;
   margin-inline: auto;
-  margin-top: 7rem;
+  margin-top: 6rem;
 }
 #contact-section .name {
   font-size: 3rem;
