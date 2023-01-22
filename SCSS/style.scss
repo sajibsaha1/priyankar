@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap");
+@import "_variables";
+@import "_responsive";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: $bg-color;
+}
+
+// Nav bar
+.nav-items {
+  @include flex();
+  margin-block: 1.5rem;
+  li {
+    margin-inline: 1rem;
+    a {
+      color: $font-pri-color;
+      font-size: 1rem;
+      font-weight: 500;
+      &:hover {
+        color: $font-sec-color;
+      }
+    }
+  }
+}
+
+// Banner
+#banner {
+  @include flex();
+
+  width: 80vw;
+  margin-inline: auto;
+  margin-top: 7rem;
+  gap: 5rem;
+  .banner-img {
+    border: 0.1rem solid $font-pri-color;
+    height: 23rem;
+  }
+
+  .name {
+    @include fonts();
+  }
+  .desc {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: $font-pri-color;
+    margin-block: 1rem;
+  }
+  .btn,
+  a {
+    color: #fff;
+
+    background-color: $font-pri-color;
+    height: 2.5rem;
+    width: 7rem;
+    @include flex();
+    &:hover {
+      background-color: $font-sec-color;
+    }
+  }
+}
+// Projects
+
+#projects-section {
+  flex-direction: column;
+  width: 80vw;
+  margin-inline: auto;
+  margin-top: 6rem;
+  .name {
+    @include fonts();
+  }
+}
+
+.card {
+  font-weight: 300;
+  padding: 3rem;
+  line-height: 2rem;
+  margin-block: 1.5rem;
+  color: #fff;
+  max-height: 50vh;
+  background-color: $font-sec-color;
+  h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+  }
+  .prj-link {
+    font-weight: 500;
+    color: #fff;
+    &:hover {
+      color: $font-pri-color;
+    }
+  }
+  &:hover {
+    background-color: $hover-bg;
+  }
+}
+
+// Contact
+
+#contact-section {
+  flex-direction: column;
+  width: 80vw;
+  margin-inline: auto;
+  margin-top: 6rem;
+  .name {
+    @include fonts();
+  }
+  li,
+  a {
+    font-size: 1.5rem;
+    color: $font-pri-color;
+    &:hover {
+      color: $font-sec-color;
+    }
+  }
+  ul {
+    line-height: 3rem;
+  }
+}
+
+//  Footer
+
+footer {
+  @include flex();
+  padding-block: 2rem;
+}

@@ -1,21 +1,5 @@
 # Portfolio Website Project
 
-I made this portfolio website project using HTML5, CSS3.
-This website is a responsive website.
-
-## Note
-
-You can get extra CSS3 code
-
-## Clone this Project
-
-## Tech Stack
-
-<p align="Center"> 
-<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white" />
-</p>
-
 <h1 align="center"> Connect with me 🤝</h1>
 
 <p align="Center"> 
@@ -26,7 +10,5 @@ You can get extra CSS3 code
 <a href="https://www.twitter.com/priyankarpal" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Twitter-1DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"  /></a>
 </p>
 
-## Website Image
 
-![Priyankar Pal](/images/priyankar.png)
 

@@ -1,190 +1,101 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Priyankar Pal - Web Developer | Tech Enthusiast</title>
-  <link rel="stylesheet" href="/CSS/style.css" />
-  <link rel="stylesheet" href="CSS/responsivedesign.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-  <meta name="description" content="Priyankar Pal - Web Developer | Tech Enthusiast" />
-  <meta name="keywords" content="Priyankar Pal, Web Developer, Tech Enthusiast, coder, Software Engineering" />
-  <meta name="robots" content="index, follow" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="language" content="English" />
-  <meta name="revisit-after" content="1 days" />
-  <meta name="author" content="Priyankar Pal" />
-  <link rel="shortcut icon" href="/images/fire.png" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's Priyankar</title>
+    <link rel="stylesheet" href="/SCSS/style.css">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
 </head>
 <body>
-  <!-- Nav Bar Starts -->
-  <nav>
-    <div class="logo">P.</div>
-    <div class="nav-items">
-      <ul class="nav-links">
-        <li><a class="links" href="#banner">Home</a></li>
-        <li><a class="links" href="#about-section">About</a></li>
-        <li><a class="links" href="#technical-skills">Skills</a></li>
-        <li><a class="links" href="#projects-section">Creations</a></li>
-        <li><a class="links" href="#contact">Contact</a></li>
-      </ul>
-    </div>
-    <div class="menu">
-      <img src="/images/man_raising_hand.gif" alt="man_raising_hand">
-    </div>
-
-    <div>
-      <input type="checkbox" class="checkbox" id="checkbox">
-      <label for="checkbox" class="label">
-        <div class='ball'>
-      </label>
-    </div>
-  </nav>
-  <!-- Nav Bar Ends -->
-
-  <!-- Banner Section Starts -->
-  <section id="banner">
-    <span class="parallax-text" text="Web Dev">Web Dev</span>
-    <img class="anim-img" src="/images/New Project.png" alt="nike" />
-  </section>
-  <!-- Banner Section Ends -->
-
-  <!-- About sections starts -->
-  <section id="about-section">
-    <div class="about-wrapper">
-      <div class="left-bg">
-        <div class="abt">
-          <img src="/images/upside_down_face.gif" alt="upside_down_face" />
-          <h2>Who Am I ?</h2>
+    <!--  nav bar section -->
+    <nav>
+        <ul class="nav-items">
+            <li><a href="index.html">Home.</a></li>
+            <li><a href="https://hashnode.com/@priyankarpal" target="_blank">Blogs.</a></li>
+            <li><a href="#projects-section">Projects.</a></li>
+            <li><a href="#">Contact.</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <!-- Banner section -->
+    <section id="banner">
+        <div class="left-bg">
+            <img src="/images/img.jpg" class="banner-img" alt="Banner Image">
         </div>
-        <p>
-          Hi👋 there! It's Priyankar Pal, a First-year Computer Science Engineering student & a Tech Enthusiast. I have
-          knowledge
-          of creating websites using HTML5, CSS3, JS, Bootstrap & TailwindCss also I'm a Freelancer. I am always looking
-          for ways
-          to contribute to the open-source community and positively impact the tech industry.
-        </p>
-      </div>
-    </div>
-  </section>
-  <!-- About sections Ends -->
+        <div class="right-bg">
+            <h2 class="name">Priyankar Pal</h2>
+            <p class="desc">Hi👋 there! It's Priyankar Pal, a First-year Computer Science Engineering student & a Tech
+                Enthusiast. I
+                have knowledge
+                of creating websites using HTML5, CSS3, JS, Bootstrap & TailwindCss also I'm a Freelancer. I am always
+                looking for ways
+                to contribute to the open-source community and positively impact the tech industry.</p>
+            <div class="btn"><a href="#projects-section">Explore</a></div>
+        </div>
 
-  <!--  Technical skills starts -->
-  <section id="technical-skills">
-    <div class="tec">
-      <img src="/images/rocket.gif" alt="rocket" />
-      <h2 class="skills-h2">Technical Skills</h2>
-    </div>
+    </section>
 
-    <div class="cards">
-      <div class="card">
-        <img src="/images//icons/html.png" alt="html5" />
-      </div>
-      <div class="card"><img src="/images//icons/css.png" alt="Css3" /></div>
-      <div class="card">
-        <img src="/images//icons/tailwind.png" alt="TailwindCss" />
-      </div>
-      <div class="card">
-        <img src="/images//icons/bootstrap.png" alt="Bootstrap" />
-      </div>
-      <div class="card"><img src="/images//icons/java.png" alt="Java" /></div>
-      <div class="card">
-        <img src="/images//icons/python.png" alt="Python" />
-      </div>
-      <div class="card"><img src="/images//icons/c.png" alt="C" /></div>
-      <div class="card"><img src="/images//icons/cpp.png" alt="cpp" /></div>
-      <div class="card">
-        <img src="/images//icons/javascript.png" alt="Javascript" />
-      </div>
-      <div class="card"><img src="/images//icons/git.png" alt="Git" /></div>
-      <div class="card">
-        <img src="/images//icons/linux.png" alt="Linux" />
-      </div>
+    <!-- Projects section -->
+    <section id="projects-section">
+        <h2 class="name">Creations</h2>
 
-      <div class="card">
-        <img src="/images//icons/figma.png" alt="Figma" />
-      </div>
-      <div class="card">
-        <img src="/images//icons/wordpress.png" alt="WordPress" />
-      </div>
-    </div>
-  </section>
-  <!--  Technical skills Ends -->
+        <div class="card">
+            <h3>HTML Minifier</h3>
+            <p>Using HTML5, CSS3 and JS I made this HTML Minifier. </p>
+            <a class="prj-link" href="https://github.com/priyankarpal/HTMLMinifier" target="_blank"><i
+                    class="fa-brands fa-github"></i> GitHub Link</a>
+        </div>
+        <div class="card">
+            <h3>CSS Minifier</h3>
+            <p>Using HTML5, CSS3 and JS I made this CSS Minifier. </p>
+            <a href="https://github.com/priyankarpal/CSSMinifier" target="_blank" class="prj-link"><i
+                    class="fa-brands fa-github"></i> GitHub Link</a>
 
-  <!--  Projects Section Starts -->
-  <section id="projects-section">
-    <div class="container">
-      <div class="prj">
-        <img src="/images/star_struck.gif" alt="star_struck" />
-        <h2 class="prj-h2">Creations</h2>
-      </div>
+        </div>
+        <div class="card">
+            <h3>VS Code Dark Theme</h3>
+            <p>A Theme Extension for VS Code </p>
+            <a href="https://github.com/priyankarpal/DarkThemeVsCode" class="prj-link" target="_blank"><i
+                    class="fa-brands fa-github"></i> GitHub Link</a>
 
-      <div class="gallery">
-        <figure class="gallery__item gallery__item--1">
-          <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=PriyankarPal.darkthemeforvscode">
-            <img src="/images/Blacktheme.jpg" alt="Gallery image 1" class="gallery__img" />
-          </a>
-        </figure>
-        <figure class="gallery__item gallery__item--2">
-          <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=PriyankarPal.darkthemeforvscode">
-            <img src="/images/Purpletheme.jpg" alt="Gallery image 2" class="gallery__img" />
-          </a>
-        </figure>
-        <figure class="gallery__item gallery__item--3">
-          <a href="https://quotebuilder.vercel.app/" target="_blank">
-            <img src="/images/quotesbuilder.png" alt="Gallery image 3" class="gallery__img" />
-          </a>
-        </figure>
-        <figure class="gallery__item gallery__item--4">
-          <a href="https://html-minify.vercel.app/" target="_blank">
-            <img src="/images/htmlminifier.png" alt="Gallery image 4" class="gallery__img" />
-          </a>
-        </figure>
-        <figure class="gallery__item gallery__item--5">
-          <a href="https://css-minifier.vercel.app/" target="_blank">
-            <img src="/images/cssminifier.png" alt="Gallery image 5" class="gallery__img" />
-          </a>
-        </figure>
-        <figure class="gallery__item gallery__item--6">
-          <a href="https://jokeshub.vercel.app/" target="_blank">
-            <img src="/images/jokehub.png" alt="Gallery image 6" class="gallery__img" />
-          </a>
-        </figure>
-      </div>
-    </div>
-  </section>
-  <!--  Projects Section Ends -->
+        </div>
+        <div class="card">
+            <h3>JokeHub</h3>
+            <p>Random funny jokes generator website </p>
+            <a href="https://github.com/priyankarpal/JokeHub" class="prj-link" target="_blank"><i
+                    class="fa-brands fa-github"></i>
+                GitHub Link</a>
 
-  <!--  Contact Me Starts -->
-  <section id="contact">
-    <div class="contact-me">
-      <div class="cnt">
-        <img src="/images/handshake.gif" alt="handshake" />
-        <h2 class="contact-h2">Connect with me</h2>
-      </div>
-      <p class="items">
-        <a href="https://twitter.com/priyankarpal" target="_blank" class="social-links">Twitter</a>
-        <a href="https://www.linkedin.com/in/priyankarpal/" target="_blank" class="social-links">LinkedIn</a>
-        <a href="https://github.com/priyankarpal" target="_blank" class="social-links">GitHub</a>
-        <a href="https://instagram.com/priyankarpal1" target="_blank" class="social-links">Instagram</a>
-        <a href="https://priyankarpal.hashnode.dev/" target="_blank" class="social-links">Hashnode</a>
-        <a href="mailto:priyankarpal9@gmail.com" target="_blank" class="social-links">Email</a>
-        <a href="https://www.upwork.com/freelancers/~01f5351933e33ddad8" target="_blank" class="social-links">UpWork</a>
+        </div>
+        <div class="card">
+            <h3>Quotes Builder</h3>
+            <p>A random motivational quotes generator website </p>
+            <a href="https://github.com/priyankarpal/quotesbuilder" target="_blank" class="prj-link"><i
+                    class="fa-brands fa-github"></i> GitHub
+                Link</a>
 
-      </p>
-    </div>
-  </section>
+        </div>
+    </section>
+    <!-- Contact Sections -->
 
-  <!-- Contact Me Ends -->
+    <section id="contact-section">
+        <h2 class="name">Contact</h2>
+        <ul>
+            <li><a href="https://twitter.com/priyankarpal" target="_blank">Let's connect on Twittter</a></li>
+            <li><a href="https://linkedin.com/in/priyankarpal" target="_blank">Send a message on LinkedIn</a></li>
+            <li><a href="https://github.com/priyankarpal" target="_blank">Check my GitHub repository</a></li>
+            <li><a href="https://instagram.com/priyankarpal1" target="_blank">Don't forget to check Instagram</a></li>
+            <li><a href="mailto:priyankarpal9@gmail.com"></a>Sent work details on Email</li>
 
-  <!--  Footer Starts -->
-  <footer>
-    <p class="footer-txt">
-      Crafted with ❤️ by
-      <a href="https://github.com/priyankarpal" target="_blank" class="footer-link">@priyankarpal</a>
-    </p>
-  </footer>
-  <!-- Footer Ends -->
 
-  <script src="index.js"></script>
+
+        </ul>
+    </section>
+
+    <footer>Crafted by @priyankar</footer>
+    <!-- Fontawesome icon -->
+    <script src="https://kit.fontawesome.com/9228e186f4.js" crossorigin="anonymous"></script>
 </body>
 </html>

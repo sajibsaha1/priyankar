@@ -1,0 +1,24 @@
+$bg-color: #dcdde1;
+$font-sec-color: #2f3640;
+$font-pri-color: #000;
+$hover-bg: #718093;
+
+@mixin flex() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin fonts() {
+  font-size: 3rem;
+  font-weight: 500;
+  color: $font-pri-color;
+  margin-block: 1rem;
+  text-transform: uppercase;
+}
+
+*:hover {
+  cursor: url("https://img.icons8.com/ios/50/000000/cursor.png"), auto;
+}
+
+
