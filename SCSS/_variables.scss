@@ -17,8 +17,12 @@ $hover-bg: #718093;
   text-transform: uppercase;
 }
 
+@mixin widthdetails() {
+  width: 80vw;
+  margin-inline: auto;
+  margin-top: 7rem;
+}
+
 *:hover {
   cursor: url("https://img.icons8.com/ios/50/000000/cursor.png"), auto;
 }
-
-

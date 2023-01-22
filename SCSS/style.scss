@@ -36,10 +36,7 @@ body {
 // Banner
 #banner {
   @include flex();
-
-  width: 80vw;
-  margin-inline: auto;
-  margin-top: 7rem;
+  @include widthdetails();
   gap: 5rem;
   .banner-img {
     border: 0.1rem solid $font-pri-color;
@@ -58,7 +55,6 @@ body {
   .btn,
   a {
     color: #fff;
-
     background-color: $font-pri-color;
     height: 2.5rem;
     width: 7rem;
@@ -72,9 +68,7 @@ body {
 
 #projects-section {
   flex-direction: column;
-  width: 80vw;
-  margin-inline: auto;
-  margin-top: 6rem;
+  @include widthdetails();
   .name {
     @include fonts();
   }
@@ -105,9 +99,8 @@ body {
 
 #contact-section {
   flex-direction: column;
-  width: 80vw;
-  margin-inline: auto;
-  margin-top: 6rem;
+  @include widthdetails();
+
   .name {
     @include fonts();
   }
