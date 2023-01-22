@@ -3,22 +3,15 @@
   cursor: url("https://img.icons8.com/ios/50/000000/cursor.png"), auto;
 }
 
-@media screen and (max-width: 768px) {
-  .nav-items {
-    align-items: center;
-  }
-  .nav-items li,
-.nav-items a {
-    font-size: 0.5rem;
-    margin-block: 1rem;
+@media screen and (max-width: 48em) {
+  .nav-items li {
+    font-size: 0.2rem;
+    margin-block: 2rem;
   }
   #banner {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-  }
-  #banner .banner-img {
-    height: 15rem;
   }
   #banner .name {
     font-size: 2rem;
