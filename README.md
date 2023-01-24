@@ -1,4 +1,5 @@
-# Portfolio Website Project
+# Portfolio Website 
+![Priyankar Pal](/images/priyankarpal.png)
 
 <h1 align="center"> Connect with me 🤝</h1>
 
